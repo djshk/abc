@@ -8,3 +8,7 @@ app.listen(3000);
 app.get('/', (req, res) => {
   res.send('Hello Wolrd!');
 })
+
+app.get('/demo', (req, res) => {
+  res.send('Hello Demo!');
+})
